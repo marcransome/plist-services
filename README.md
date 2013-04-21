@@ -7,7 +7,7 @@ Installation is as easy as double-clicking each of the two files that are extrac
 ![Service Installer](http://www.fidgetbox.co.uk/plist-services.png)
 
 ##Usage
-The services can be accessed directly from the Finder's contextual right-clicking on one or more .plist files:
+The services can be accessed directly from the Finder's contextual menu by right-clicking on one or more .plist files:
 
 ![Contextual menu](http://www.fidgetbox.co.uk/plist-services_example.png)
 
