@@ -1,13 +1,13 @@
 #plist-services
-`plist-services` comprises two Mac OS X services for quickly converting property list (.plist) file between XML and binary encodings.  The services are built with Automator and use the command-line `plutil` program to perform the conversion process.
+`plist-services` comprises two Mac OS X services for quickly converting property list (.plist) files between XML and binary encodings.  The services are built with Automator and use the command-line `plutil` program to perform the conversion process.
 
 ##Installation
-Installation is as easy as double-clicking each of the two files that are extracted from the download archive.  You will be prompted to install the services individually and may alternatively open them in Automator for further customisation:
+Installation is as easy as double-clicking each of the two files that are extracted from the download archive (click the `ZIP` icon at the top of this page to download).  You will be prompted to install the services individually and may alternatively open them in Automator for further customisation:
 
 ![Service Installer](http://www.fidgetbox.co.uk/plist-services.png)
 
 ##Usage
-The services can be accessed directly from the contextual menu in Finder by selecting and right-clicking one or more .plist files:
+The services can be accessed directly from the Finder's contextual right-clicking on one or more .plist files:
 
 ![Contextual menu](http://www.fidgetbox.co.uk/plist-services_example.png)
 
