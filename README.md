@@ -12,4 +12,4 @@ The services can be accessed directly from the Finder's contextual menu by right
 ![Contextual menu](http://www.fidgetbox.co.uk/plist-services_example.png)
 
 ## Comments or suggestions?
-Email me at [marc.ransome@fidgetbox.co.uk](mailto://marc.ransome@fidgetbox.co.uk) and follow [@marcransome](http://www.twitter.com/marcransome).
+Email me at [marc.ransome@fidgetbox.co.uk](mailto:marc.ransome@fidgetbox.co.uk) and follow [@marcransome](http://www.twitter.com/marcransome).
