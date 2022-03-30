@@ -4,7 +4,7 @@
 
 ## Installation
 
-Download the latest [release]() package, extract the files, then double-click each of the two workflow files in turn, accepting the installation prompts that will appear:
+Download the latest [release](https://github.com/marcransome/plist-services/releases) package, extract the files, then double-click each of the two workflow files in turn, accepting the installation prompts that will appear:
 
 ![Automator installer](https://www.fidgetbox.co.uk/github/plist_services.png)
 
