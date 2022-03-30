@@ -12,10 +12,7 @@ Download the latest [release](https://github.com/marcransome/plist-services/rele
 
 Perform in-place file conversions by selecting one of more files in Finder and selecting the appropriate service from the right-click contextual menu:
 
-![Contextual menu](https://www.fidgetbox.co.uk/github/plist_services2.png)
-
 <img width="843" alt="Contextual menu" src="https://user-images.githubusercontent.com/679401/160904785-a5f29d0c-8ee7-4897-9881-ff31fd4b3cad.png">
-
 
 ## License
 
