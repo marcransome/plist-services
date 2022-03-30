@@ -1,6 +1,6 @@
 # plist-services
 
-`plist-services` provides two macOS Quick Action workflows for quickly converting property list files (`.plist`) between XML and binary encodings. These can be added to Finder, Touch Bar or the Services menu, and can be managed in System Preferences. The services are built with [Automator](https://support.apple.com/en-gb/guide/automator) and use the command-line `plutil` program to perform the conversion process.
+`plist-services` provides two macOS Quick Actions for quickly converting property list files (`.plist`) between XML and binary encodings. These can be added to Finder, Touch Bar or the Services menu, and can be managed in System Preferences. The services are built with [Automator](https://support.apple.com/en-gb/guide/automator) and use the command-line `plutil` program to perform the conversion process.
 
 ## Installation
 
