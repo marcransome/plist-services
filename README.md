@@ -16,7 +16,7 @@ To perform in-place file conversions, select one or more files in a Finder windo
 
 ## License
 
-`plist-services` is provided under the terms of the [MIT License](http://opensource.org/licenses/mit-license.php).
+`plist-services` is provided under the terms of the [MIT License](https://opensource.org/licenses/mit-license.php).
 
 ## Contact
 
