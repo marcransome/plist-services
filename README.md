@@ -4,7 +4,13 @@
 
 ## Installation
 
-Download the latest [release](https://github.com/marcransome/plist-services/releases) package, extract the files, then double-click each of the two workflow files in turn, accepting the installation prompts as they appear:
+Install using [Homebrew](https://brew.sh):
+
+```bash
+brew install marcransome/tap/plist-services
+```
+
+Alternatively, download the latest [release](https://github.com/marcransome/plist-services/releases) package, extract the files, then double-click each of the two workflow files in turn, accepting the installation prompts as they appear:
 
 <img width="602" alt="Automator installer" src="https://user-images.githubusercontent.com/679401/160903858-4dada07f-400c-4fc8-81dd-20c70487328f.png">
 
