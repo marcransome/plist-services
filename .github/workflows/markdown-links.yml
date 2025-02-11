@@ -1,32 +1,29 @@
-name: markdown-links
+name: Markdown links check
 on:
-  push:
-    branches:
-      - main
   pull_request:
     branches:
       - main
-  release:
-    types:
-      - published
-  schedule:
-    - cron: "0 18 * * 1"
+
+permissions: read-all
+
 jobs:
   markdown-links:
+    name: Markdown links check
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
-    - uses: actions/checkout@v4
-    - name: Check links in modified Markdown files
-      if: github.event_name == 'pull_request'
-      uses: gaurav-nelson/github-action-markdown-link-check@v1
-      with:
-        base-branch: main
-        check-modified-files-only: yes
-        use-verbose-mode: yes
-        config-file: .github/markdown-links.json
-    - name: Check links in all Markdown files
-      if: github.event_name != 'pull_request'
-      uses: gaurav-nelson/github-action-markdown-link-check@v1
-      with:
-        use-verbose-mode: yes
-        config-file: .github/markdown-links.json
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Harden runner
+        uses: step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e # v2.10.4
+        with:
+          egress-policy: audit
+      - name: Check links in Markdown files
+        uses: umbrelladocs/action-linkspector@de84085e0f51452a470558693d7d308fbb2fa261 # v1.2.5
+        with:
+          fail_on_error: true
+          filter_mode: nofilter
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          reporter: github-pr-review
